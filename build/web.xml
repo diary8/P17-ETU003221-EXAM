@@ -1,0 +1,65 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" 
+version="2.4">
+<!-- <display-name>Application WEB affichant HelloWorld</display-name>  -->
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+    <servlet> 
+        <servlet-name>LoginServlet</servlet-name> 
+        <servlet-class>com.itu.Servlet.LoginServlet</servlet-class> 
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>LoginServlet</servlet-name> 
+        <url-pattern>/login_treat</url-pattern> 
+    </servlet-mapping>
+    <servlet> 
+        <servlet-name>FormPrevisionServlet</servlet-name> 
+        <servlet-class>com.itu.Servlet.FormPrevisionServlet</servlet-class> 
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>FormPrevisionServlet</servlet-name> 
+        <url-pattern>/prevision</url-pattern> 
+    </servlet-mapping>
+    <servlet> 
+        <servlet-name>FormDepenseServlet</servlet-name> 
+        <servlet-class>com.itu.Servlet.FormDepenseServlet</servlet-class> 
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>FormDepenseServlet</servlet-name> 
+        <url-pattern>/depense </url-pattern> 
+    </servlet-mapping>
+    
+    <servlet> 
+        <servlet-name>PrevisionServlet</servlet-name> 
+        <servlet-class>com.itu.Servlet.PrevisionServlet</servlet-class> 
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>PrevisionServlet</servlet-name> 
+        <url-pattern>/traitementPrevision</url-pattern> 
+    </servlet-mapping>
+    <servlet> 
+        <servlet-name>DepenseServlet</servlet-name> 
+        <servlet-class>com.itu.Servlet.DepenseServlet</servlet-class> 
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>DepenseServlet</servlet-name> 
+        <url-pattern>/traitementDepense</url-pattern> 
+    </servlet-mapping>
+    <servlet> 
+        <servlet-name>DepenseServlet</servlet-name> 
+        <servlet-class>com.itu.Servlet.DepenseServlet</servlet-class> 
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>DepenseServlet</servlet-name> 
+        <url-pattern>/traitementDepense</url-pattern> 
+    </servlet-mapping>
+    <servlet> 
+        <servlet-name>Dash</servlet-name> 
+        <servlet-class>com.itu.Servlet.Dash</servlet-class> 
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>Dash</servlet-name> 
+        <url-pattern>/</url-pattern> 
+    </servlet-mapping>
+</web-app>
