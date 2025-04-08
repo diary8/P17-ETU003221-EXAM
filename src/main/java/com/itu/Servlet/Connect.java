@@ -9,7 +9,7 @@ public class Connect
     public static Connection Connecter() throws ClassNotFoundException 
     {
         Connection Connection;
-        String URL = "jdbc:mysql://localhost:3306/db_s2_ETU003180";
+        String URL = "jdbc:mysql://localhost:3306/db_s2_ETU003221";
         String User = "ETU003221";
         String password = "Y6FTyeoA";
         try {
